@@ -3,3 +3,6 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+config:
+    path: /config
+    controller: App\Controller\ConfigController::index
